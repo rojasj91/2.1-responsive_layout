@@ -1,0 +1,103 @@
+/*media queries are a feature that set rules under certain conditions*/
+
+/*media print {...} this states to show the features in between curly braces if being printed*/
+
+/*media query only apply this rule if we are no bigger than 300px*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif, Serif;
+    text-align: center;
+    padding: 5px;
+    background: #f9f8fd;
+    border: 5px solid #006E37;
+}
+
+/*@media (max-width: 575.98px) {
+    .box{
+        width: 25%;
+    }
+}*/
+
+/*@media (max-width: 767.98px) {
+    .box{
+        width: 40%;
+    }
+}*/
+
+.header {
+    margin: auto;
+}
+
+.first-paragraph {
+    margin-top: 1px;
+    font-size: 18px;
+    color: #3d3d3f;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Indie Flower', cursive;
+}
+
+span {
+    font-size: 20px;
+    color: #7dce94;
+   font-weight: bolder;
+
+}
+
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-transform: capitalize;
+    color: #006E37;
+}
+
+div {
+    display: inline-block;
+}
+
+.box img {
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.second-paragraph {
+    font-family: 'Indie Flower', cursive;
+    color: #3d3d3f;
+    font-weight: bolder;
+    font-size: 22px;
+    border-top: 2px solid #006E37;
+    border-bottom: 2px solid #006E37;
+    margin: 75px;
+    padding: 50px;
+}
+
+.third-paragraph {
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #006E37;
+}
+
+
+/*mobile first set the first parameters for mobile version then media queries for desktop version*/
+
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+*/
+
