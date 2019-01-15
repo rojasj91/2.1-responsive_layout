@@ -16,11 +16,11 @@ body {
     border: 5px solid #006E37;
 }
 
-/*@media (max-width: 575.98px) {
+@media (min-width: 1084px) {
     .box{
-        width: 25%;
+
     }
-}*/
+}
 
 /*@media (max-width: 767.98px) {
     .box{
@@ -64,7 +64,7 @@ div {
     width: 350px;
     height: 200px;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 
 .second-paragraph {
@@ -72,8 +72,8 @@ div {
     color: #3d3d3f;
     font-weight: bolder;
     font-size: 22px;
-    border-top: 2px solid #006E37;
-    border-bottom: 2px solid #006E37;
+    border-top: 2px solid #7dce94;
+    border-bottom: 2px solid #7dce94;
     margin: 75px;
     padding: 50px;
 }
@@ -83,6 +83,15 @@ div {
     font-size: 32px;
     font-weight: bolder;
     color: #006E37;
+}
+
+footer {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    border-top: 1px solid #006E37;
+    font-size: 16px;
+    font-weight: bolder;
+
 }
 
 
