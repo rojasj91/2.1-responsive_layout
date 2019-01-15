@@ -16,8 +16,9 @@ body {
     border: 5px solid #006E37;
 }
 
-@media (min-width: 1084px) {
+@media (max-width: 1084px) {
     .box{
+        display: block;
 
     }
 }
